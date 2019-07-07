@@ -17,4 +17,4 @@ NightCore Pitch was created to make it easier to listen to youtube music in the 
 
 Open firefox browser and in the url type "about:debugging" to open extension tab.
 
-![step0]("./step0.gif")
+![](step0.gif)
