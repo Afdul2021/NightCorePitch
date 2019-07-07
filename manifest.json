@@ -36,7 +36,6 @@
 		"default_icon": {
 			"64": "icons/icon.png"
 		},
-		"default_popup": "pageAction/index.html",
 		"default_title": "nightcorepitch",
 		"show_matches": ["*://*.youtube.com/*"]
 	}

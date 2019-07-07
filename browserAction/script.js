@@ -5,16 +5,24 @@ document.addEventListener("DOMContentLoaded", function() {
   var nightcoreBtn = document.querySelector(".nightcore-btn button");
   var increment = document.querySelector(".pitch-increment");
   var decrement = document.querySelector(".pitch-decrement");
-  var reset = document.querySelector(".reset-btn");
+  var reset = document.getElementById("reset-btn");
 
   // NIGHTCORE MODE
-  nightcoreBtn.addEventListener("click", async function() {
+  nightcoreBtn.addEventListener("click", function() {
     browser.tabs.executeScript({
-      code: `console.log(window.location.href)`
+      file: "./nightcore.js"
     });
   });
 
   // PITCH Semitone Controls
+  reset.addEventListener("click", () => {
+    // count = 0;
+    // document.querySelector(".semitone-count").textContent = count;
+    // browser.tabs.executeScript({
+    //   file: "./reset.js"
+    // });
+    alert("Please refresh the page to go back to normal~");
+  });
   increment.addEventListener("click", () => {
     count = count + 1;
     document.querySelector(".semitone-count").textContent = count;
@@ -22,11 +30,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
   decrement.addEventListener("click", () => {
     count = count - 1;
-    document.querySelector(".semitone-count").textContent = count;
-  });
-
-  reset.addEventListener("click", () => {
-    count = 0;
     document.querySelector(".semitone-count").textContent = count;
   });
 });
