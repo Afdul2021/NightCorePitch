@@ -1,0 +1,43 @@
+{
+	"manifest_version": 2,
+	"name": "nightcorepitch",
+	"description": "Listen to nightcore style music for Youtube",
+	"version": "0.0.1",
+	"icons": {
+		"64": "icons/icon.png"
+	},
+	"permissions": [
+		"storage",
+		"tabs",
+		"activeTab",
+		"contextMenus"
+	],
+	"background": {
+		"scripts": [
+			"background_script.js"
+		]
+	},
+	"content_scripts": [{
+		"matches": [
+			"*://*.youtube.com/*"
+		],
+		"js": [
+			"content_script.js"
+		]
+	}],
+	"browser_action": {
+		"default_icon": {
+			"64": "icons/icon.png"
+		},
+		"default_popup": "browserAction/index.html",
+		"default_title": "nightcorepitch"
+	},
+	"page_action": {
+		"default_icon": {
+			"64": "icons/icon.png"
+		},
+		"default_popup": "pageAction/index.html",
+		"default_title": "nightcorepitch",
+		"show_matches": ["*://*.youtube.com/*"]
+	}
+}
