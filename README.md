@@ -3,8 +3,10 @@
 <center>
 <div style="text-align:center;">
 <img src="https://img.shields.io/github/languages/code-size/nguyen17/NightCorePitch.svg?color=%23C686DE&style=for-the-badge" />
+
 <div class="firefox-logo" style="text-align:center;">
-<h1>Compatible with 
+<h1>Compatible with
+
 <img src="https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.png" width="31" height="31"/>
 </h1>
 </div>
