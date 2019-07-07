@@ -15,6 +15,10 @@ NightCore Pitch was created to make it easier to listen to youtube music in the 
 
 # Install
 
-Open firefox browser and in the url type "about:debugging" to open extension tab.
+1. _Open firefox browser and in the url type "about:debugging" to open extension tab._
 
-![](step0.gif)
+   ![](step0.gif)
+
+2. _When the extension tab is open, make sure the debugging checkbox is enabled. Then click the "load temporary addon" to install the extension. Note: the file to load is <strong>manifest.json</strong>_
+
+   ![](step1.gif)
