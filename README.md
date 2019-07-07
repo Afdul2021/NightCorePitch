@@ -1,7 +1,7 @@
 ![NightCore Pitch](https://user-images.githubusercontent.com/17789092/60771603-6cf8ce00-a09f-11e9-8011-c2c0798a5c9b.png)
 
 <center>
-<div style="text-align:center; padding: 20px;">
+<div style="text-align:center; padding: 40px;">
 <p align="center">
 <img src="https://img.shields.io/github/languages/code-size/nguyen17/NightCorePitch.svg?color=%23C686DE&style=for-the-badge" />
 <img src="https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.png" width="31" height="31" style="padding-left: 10px"/></p>
