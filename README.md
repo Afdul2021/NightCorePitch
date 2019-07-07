@@ -3,7 +3,7 @@
 <center>
 <img src="https://img.shields.io/github/languages/code-size/nguyen17/NightCorePitch.svg?color=%23C686DE&style=for-the-badge" />
 <div class="firefox-logo" style="width:200px; padding: 20px;">
-<h1>Available for 
+<h1>Compatible with 
 <img src="https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.png" width="31" height="31"/>
 </h1>
 </div>
@@ -22,3 +22,7 @@ NightCore Pitch was created to make it easier to listen to youtube music in the 
 2. _When the extension tab is open, make sure the debugging checkbox is enabled. Then click the "load temporary addon" to install the extension. Note: the file to load is <strong>manifest.json</strong>_
 
    ![](step1.gif)
+
+3. _Now it's done! It should appear somewhere on the top right of the browser_
+
+   ![](step2.gif)
