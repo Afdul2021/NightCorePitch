@@ -25,14 +25,20 @@ _if it's not working or anything, try to refresh the page ^^_
 
 # Install
 
-1. _Open firefox browser and in the url type "about:debugging" to open extension tab._
+1. *Clone into a directory of your choice.*
+
+```
+git clone https://github.com/Nguyen17/NightCorePitch.git
+```
+
+2. _Open firefox browser and in the url type "about:debugging" to open extension tab._
 
    ![](step0.gif)
 
-2. _When the extension tab is open, make sure the debugging checkbox is enabled. Then click the "load temporary addon" to install the extension. Note: the file to load is <strong>manifest.json</strong>_
+3. _When the extension tab is open, make sure the debugging checkbox is enabled. Then click the "load temporary addon" to install the extension. Note: the file to load is <strong>manifest.json</strong>_
 
    ![](step1.gif)
 
-3. _Now it's done! It should appear somewhere on the top right of the browser_
+4. _Now it's done! It should appear somewhere on the top right of the browser_
 
    ![](step2.gif)
