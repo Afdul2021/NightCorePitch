@@ -9,6 +9,10 @@
 </div>
 </center>
 
+- [NightCore Pitch Extension for Youtube](#NightCore-Pitch-Extension-for-Youtube)
+- [Troubleshoot](#Troubleshoot)
+- [Install](#Install)
+
 # NightCore Pitch Extension for Youtube
 
 NightCore Pitch was created to make it easier to listen to youtube music in the style of happy hardcore / uk hardcore by adding a 26% pitch.
