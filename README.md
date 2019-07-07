@@ -13,6 +13,12 @@
 
 NightCore Pitch was created to make it easier to listen to youtube music in the style of happy hardcore / uk hardcore by adding a 26% pitch.
 
+# Troubleshoot
+
+**Note: There is a lot of bugs as this is in progress**
+
+_if it's not working or anything, try to refresh the page ^^_
+
 # Install
 
 1. _Open firefox browser and in the url type "about:debugging" to open extension tab._
