@@ -16,13 +16,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // PITCH Semitone Controls
   reset.addEventListener("click", () => {
-    // count = 0;
-    // document.querySelector(".semitone-count").textContent = count;
-    // browser.tabs.executeScript({
-    //   file: "./reset.js"
-    // });
     alert("Please refresh the page to go back to normal~");
   });
+
   increment.addEventListener("click", () => {
     count = count + 1;
     document.querySelector(".semitone-count").textContent = count;

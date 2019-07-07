@@ -25,13 +25,7 @@ button:before {
   right: -10px;
 }
 
-.nightcorepitch-body {
-  min-width: 250px;
-  max-width: 250px;
-  max-height: 470px;
-  padding-bottom: 0px;
-  background-color: #9D7DC9;
-}
+
 
 .anime-banner {
   width: 100%;
@@ -50,6 +44,24 @@ span.subscript {
 }
 
 /* Nightcore mode button */
+.nightcorepitch-body {
+  min-width: 250px;
+  max-width: 250px;
+  max-height: 470px;
+  padding-bottom: 0px;
+  background-color: #9D7DC9;
+}
+
+.nightcore-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  background-color: #C686DE;
+}
+
+
 .nightcore-btn button {
   width: 190px;
   color: white;
@@ -57,26 +69,16 @@ span.subscript {
   font-weight: 800;
   border: none;
   border-radius: 10px;
-  background-color: #747EC1;
+  background-color: #D8A6F9;
   box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
   transition: 800ms;
 }
 
 .nightcore-btn button:hover {
-  background-color: rgb(78, 94, 197);
+  background-color: rgb(131, 121, 207);
 }
 
 /* Semitone label */
-.pitch-semitone {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 2em;
-
-  background-color: #C686DE;
-}
-
 .pitch-semitone_state {
   font-family: "Archivo Black", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 12px;
