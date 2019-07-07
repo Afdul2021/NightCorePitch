@@ -4,7 +4,7 @@
 <img src="https://img.shields.io/github/languages/code-size/nguyen17/NightCorePitch.svg?color=%23C686DE&style=for-the-badge" />
 <div class="firefox-logo" style="width:200px; padding: 20px;">
 <h1>Available for 
-<img src="https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.png" style="width:31px; float: right;">
+<img src="https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.png" width="31" height="31"/>
 </h1>
 </div>
 </center>
@@ -12,3 +12,9 @@
 # NightCore Pitch Extension for Youtube
 
 NightCore Pitch was created to make it easier to listen to youtube music in the style of happy hardcore / uk hardcore by adding a 26% pitch.
+
+# Install
+
+Open firefox browser and in the url type "about:debugging" to open extension tab.
+
+![step0]("./step0.gif")
